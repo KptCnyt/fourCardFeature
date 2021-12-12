@@ -1,3 +1,7 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
 .background {
     width: 100%;
     height: 812px;
