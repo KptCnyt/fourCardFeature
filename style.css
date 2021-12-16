@@ -22,5 +22,7 @@ body {
     background-color:white ;
     border-radius: 5px;
     background-image: url(icon-supervisor.svg);
-    
+    background-repeat: no-repeat;
+    background-position: 90% 80%;
+    padding: 20px;
 }
