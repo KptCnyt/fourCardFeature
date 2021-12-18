@@ -7,9 +7,8 @@ body {
     height: 100%;
     background-color: hsl(0, 0%, 98%);
 }
-.title {
+div {
     font-family:'Poppins', tahoma ;
-    border: 1px solid black;
 }
 .allcard {
     height: 300px;
@@ -22,13 +21,40 @@ body {
 }
 .cardtwo {
     border-top: 4px solid hsl(212, 86%, 64%);
+    background-image: url(icon-team-builder.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 80%;
 }
 .cardthree {
     border-top: 4px solid hsl(34, 97%, 64%);
+    background-image: url(icon-karma.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 80%;
 }
 .cardfour {
     border-top: 4px solid hsl(180, 62%, 55%);
+    background-image: url(icon-calculator.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 80%;
 }
 .column-gutter {
     margin-bottom: 40px;
+}
+.bold {
+    font-weight: bolder;
+}
+.big-font {
+    font-size: 35px;
+}
+.font-gray {
+    color: hsl(229, 6%, 66%);
+}
+.thinner {
+    font-weight: 200;
+}
+.middle-font {
+    font-size: 25px;
+}
+.box-padding {
+    padding: 35px;
 }
